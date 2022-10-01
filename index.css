@@ -1,0 +1,35 @@
+*{
+    /* background-color: yellowgreen; */
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    transition: all .2s;
+    
+}
+.container{
+    background-color:rgb(82, 103, 158);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    
+}
+.container .image{
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+    border: 8px solid white;
+    margin-top: 20px;
+    border-radius: 0.3rem;
+    box-shadow: 0 .1rem .4rem gray;
+   
+}
+.container .image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    
+}
+.container .image img:hover{
+    transform: scale(1.5)
+}
